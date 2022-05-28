@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT CurriculumVitae (Informations,Education,ExperienceProf,Projets,Competences,Interets)>
+<!ELEMENT Informations (Nom,Email,Tel,Adresse,Linkedin,Github)>
+<!ELEMENT Education (Edu+)>
+<!ELEMENT ExperienceProf (Exp+)>
+<!ELEMENT Projets (Proj+)>
+<!ELEMENT Interets (Loisirs) >
+<!ELEMENT Competences (Langues,Informatique,ElectroniqueETAutomatique,MachineLearning)>
+<!ELEMENT Edu (Nom,Description)>
+<!ELEMENT Exp (Projet,Description)>
+<!ELEMENT Proj (Nom,Description) >
+<!ELEMENT  Nom (#PCDATA)>
+<!ELEMENT  Email (#PCDATA)>
+<!ELEMENT  Tel (#PCDATA)>
+<!ELEMENT Adresse (#PCDATA) >
+<!ELEMENT  Linkedin (#PCDATA)>
+<!ELEMENT  Github (#PCDATA)>
+<!ELEMENT  Langues (#PCDATA)>
+<!ELEMENT  Informatique (#PCDATA)>
+<!ELEMENT  ElectroniqueETAutomatique (#PCDATA)>
+<!ELEMENT  MachineLearning (#PCDATA)>
+<!ELEMENT  Description (#PCDATA)>
+<!ELEMENT  Projet (#PCDATA)>
+<!ELEMENT Loisirs (#PCDATA)>
+
+

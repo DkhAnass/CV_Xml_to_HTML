@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+<xs:element name="CurriculumVitae">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Informations">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Nom" type="xs:string"></xs:element>
+                        <xs:element name="Email" type="xs:string"></xs:element>
+                        <xs:element name="Tel" type="xs:string"></xs:element>
+                        <xs:element name="Adresse" type="xs:string"></xs:element>
+                        <xs:element name="Linkedin" type="xs:string"></xs:element>
+                        <xs:element name="Github" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="Education">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Edu" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Nom" type="xs:string"></xs:element>
+                                    <xs:element name="Description" type="xs:string"></xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="ExperienceProf">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Exp" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Projet" type="xs:string"></xs:element>
+                                    <xs:element name="Description" type="xs:string"></xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="Projets">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Proj" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Nom" type="xs:string"></xs:element>
+                                    <xs:element name="Description" type="xs:string"></xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="Competences">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Langues" type="xs:string"></xs:element>
+                        <xs:element name="Informatique" type="xs:string"></xs:element>
+                        <xs:element name="ElectroniqueETAutomatique" type="xs:string"></xs:element>
+                        <xs:element name="MachineLearning" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="Interets">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Loisirs" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
+            
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

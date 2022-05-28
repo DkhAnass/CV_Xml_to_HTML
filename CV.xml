@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"
+href="CV.xsl"?>
+<!DOCTYPE CurriculumVitae SYSTEM "CV.dtd">
+<CurriculumVitae>
+    
+    <Informations>
+        <Nom> Votre Nom </Nom>
+        <Email> Votre Email</Email>
+        <Tel> Votre Telephone </Tel>
+        <Adresse> Votre Adresse </Adresse>
+        <Linkedin> Votre Linkedin </Linkedin>
+        <Github> Votre Github</Github>
+    </Informations>
+    
+    <Education>
+        <Edu>
+            <Nom> 2020-Présent : Préparation d’un diplôme d’ingénieur. </Nom>
+            <Description> Description </Description>
+        </Edu>
+        <Edu>
+            <Nom> 2018-2020 : Classes Préparatoires aux Grandes Ecoles d’Ingénieurs </Nom>
+            <Description> Description </Description>  
+        </Edu>
+        <Edu>
+            <Nom> 2018 : Baccalauréat Scientifique </Nom>
+            <Description> Description </Description>  
+        </Edu>
+    </Education>
+    
+    <ExperienceProf>
+        <Exp>
+            <Projet>Asservissement de vitesse d'un moteur à courant continu</Projet>
+            <Description>Modélisation et conception d’un système asservissement de 
+                vitesse d'un moteur à courant continu.</Description>
+        </Exp>
+    </ExperienceProf>
+    
+    <Projets>
+        <Proj>
+            <Nom>Simulation des IoTs pour les Smart Home et Les Smart City</Nom>
+            <Description>Utilisation des protocoles CoAP et IPv6 pour la simulation
+                de Smart Home et Smart City</Description>
+        </Proj>
+        <Proj>
+            <Nom>Un jeu labyrinthe 2D avec résolution automatique </Nom>
+            <Description>Produire un jeu labyrinthe 2D avec résolution automatique 
+                en langage C.</Description>
+        </Proj>
+        <Proj>
+            <Nom>Implémentation d’un système de reconnaissance d’objets.</Nom>
+            <Description>Application des méthodes de Machine Learning pour 
+                développer un système de reconnaissance d’objets. </Description>
+        </Proj>
+    </Projets>
+    
+    <Competences>
+        <Langues>Français (Courant), Anglais (Courant), Arabe (Langue maternelle).</Langues>
+        <Informatique>Linux, C, Python, Java, Arduino, SQL, PL/SQL, VHDL, Assembleur, Matlab.</Informatique>
+        <ElectroniqueETAutomatique>Isis-Proteus, MATLAB/Simulink, Oracle.</ElectroniqueETAutomatique>
+        <MachineLearning>Python3, Matplotlib, TensorFlow, Keras, Scikit-Learn, Pandas, Numpy.</MachineLearning>
+    </Competences>
+    
+
+    <Interets>
+        <Loisirs>Sport (Escalade, Course à pied), Musique (Guitare), Voyage, Randonnés, Lecture.</Loisirs>
+    </Interets>
+    
+</CurriculumVitae>
