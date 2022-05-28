@@ -9,3 +9,6 @@ XML: The stucture of the CV
 
 
 XSL: Defines the style of the CV
+
+
+Open the XML file using Internet Explorer or EDGE to see the final result, You can also add a picture by changing the XSL file to fit the name of the picture used (Picture should be in the same directory)
